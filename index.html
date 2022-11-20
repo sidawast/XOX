@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Крестики-нолики</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="board"></div>
+
+<div id="modal" class="hidden">
+    <div id="modal__window">
+        <h2></h2>
+        <div id="modal__buttons">
+            <button class="reset">Играть еще</button>
+        </div>
+    </div>
+</div>
+<div class="panel">
+    <button class="reset">С начала</button>
+</div>
+<div id="modalStart" class="panelStart activ">
+    <div id ="modal__Start">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Выбирете размер игрового поля</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Например: 3">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Выбирете игрока для первого хода</label>
+                <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="0 игрок х, 1 игрок о">
+            </div>
+            <button type="button" class="btnstart w-100">Начать игру</button>
+        </form>
+    </div>
+</div>
+    <script src="logica.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
