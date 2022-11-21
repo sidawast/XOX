@@ -52,7 +52,7 @@ function click(row, column) {
   checkPlayer(arr[row][column],arr);// НОВАЯ ЧАСТЬ КОДА
   checkPlayer(arr[row][column],arrInverted);// НОВАЯ ЧАСТЬ КОДА
   checkPlayer(arr[row][column],arr45);// НОВАЯ ЧАСТЬ КОДА
-  //checkPlayer(arr[row][column],arr135);// НОВАЯ ЧАСТЬ КОДА
+  //checkPlayer(arr[row][column],arr135);// НОВАЯ ЧАСТЬ КОДА - не рабочая часть кода
   playersChanges();
   score++;
 }
